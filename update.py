@@ -15,3 +15,5 @@ for repo in repos:
 f = open('repos.yaml', "w")
 f.write(yaml.dump(repoList))
 f.close()
+
+print("---- update complete ----")
